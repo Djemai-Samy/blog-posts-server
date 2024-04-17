@@ -56,7 +56,7 @@ npm run dev
 ##### URL
 
 ```http
-POST /users/register
+POST /api/users/register
 ```
 
 ##### Data
@@ -92,7 +92,7 @@ POST /users/register
 ##### URL
 
 ```http
-POST /users/login
+POST /api/users/login
 ```
 
 ##### Data
@@ -128,7 +128,7 @@ POST /users/login
 ##### URL
 
 ```http
-POST /users/me
+POST /api/users/me
 ```
 
 ##### Cookies
@@ -161,7 +161,7 @@ Authorization: 'Bearer XXXXXX'
 ##### URL
 
 ```http
-PATCH /users/me
+PATCH /api/users/me
 ```
 
 ##### Cookies
@@ -205,7 +205,7 @@ Authorization: 'Bearer XXXXXX'
 ##### URL
 
 ```http
-POST /posts/create
+POST /api/posts/create
 ```
 
 ##### Cookies
@@ -249,7 +249,7 @@ Authorization: 'Bearer XXXXXX'
 ##### URL
 
 ```http
-GET /posts/:id
+GET /api/posts/:id
 ```
 
 ##### Réponses
@@ -280,7 +280,7 @@ GET /posts/:id
 ##### URL
 
 ```http
-GET /posts
+GET /api/posts
 ```
 
 ##### Réponses
@@ -314,7 +314,7 @@ GET /posts
 ##### URL
 
 ```http
-GET /users/:id/posts
+GET /api/users/:id/posts
 ```
 
 ##### Réponses
@@ -342,7 +342,7 @@ GET /users/:id/posts
 ##### URL
 
 ```http
-GET /users/:id/posts
+GET /api/users/me/posts
 ```
 
 ##### Cookies
